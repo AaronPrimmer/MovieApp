@@ -1,4 +1,4 @@
-import MovieCard from "./components/MovieCard";
+import Home from "./pages/Home";
 import "./App.css";
 
 function App() {
@@ -6,9 +6,7 @@ function App() {
 
   return (
     <div>
-      <MovieCard
-        movieInfo={{ title: "Star Wars", release_date: "1978", url: "" }}
-      />
+      <Home />
     </div>
   );
 }
